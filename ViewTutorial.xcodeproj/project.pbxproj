@@ -21,6 +21,7 @@
 		AF88102B19C183A0001664F7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF88100D19C1839F001664F7 /* UIKit.framework */; };
 		AF88103319C183A0001664F7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AF88103119C183A0001664F7 /* InfoPlist.strings */; };
 		AF88103519C183A0001664F7 /* ViewTutorialTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AF88103419C183A0001664F7 /* ViewTutorialTests.m */; };
+		AF88104019C1877C001664F7 /* MSGrid.m in Sources */ = {isa = PBXBuildFile; fileRef = AF88103F19C1877C001664F7 /* MSGrid.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		AF88103019C183A0001664F7 /* ViewTutorialTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ViewTutorialTests-Info.plist"; sourceTree = "<group>"; };
 		AF88103219C183A0001664F7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AF88103419C183A0001664F7 /* ViewTutorialTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewTutorialTests.m; sourceTree = "<group>"; };
+		AF88103E19C1877C001664F7 /* MSGrid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSGrid.h; sourceTree = "<group>"; };
+		AF88103F19C1877C001664F7 /* MSGrid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSGrid.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				AF88101B19C1839F001664F7 /* Main.storyboard */,
 				AF88101E19C1839F001664F7 /* MSViewController.h */,
 				AF88101F19C1839F001664F7 /* MSViewController.m */,
+				AF88103E19C1877C001664F7 /* MSGrid.h */,
+				AF88103F19C1877C001664F7 /* MSGrid.m */,
 				AF88102119C1839F001664F7 /* Images.xcassets */,
 				AF88101019C1839F001664F7 /* Supporting Files */,
 			);
@@ -251,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF88101A19C1839F001664F7 /* MSAppDelegate.m in Sources */,
+				AF88104019C1877C001664F7 /* MSGrid.m in Sources */,
 				AF88102019C1839F001664F7 /* MSViewController.m in Sources */,
 				AF88101619C1839F001664F7 /* main.m in Sources */,
 			);
